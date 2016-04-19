@@ -5,42 +5,66 @@ body
 {
 	padding-top:40px;
 	padding-bottom:40px;
-	background-color: #74AFAD;
+	/*background-color: #DFE2DB;*/
+   background: url(sunrise.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+   background-size: cover;
 
 }
 
 #lgfrm
 {
 	margin:20px auto;
-	width:400px;
-	padding:20px;
+	width:250px;
+	padding:40px;
+  background: rgba(0,0,0,0.1);
 
-	background-color: #d8e8e8;	
-	border:1px solid #68a8a6;
-	-webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-            border-radius: 5px;
-    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,.5);
-       -moz-box-shadow: 0 10px 20px rgba(0,0,0,.5);
-            box-shadow: 0 10px 20px rgba(0,0,0,.5);
+
+	/*background-color: #d8e8e8;	
+	border:1px solid #DFE2DB;*/
+	-webkit-border-radius: 25px;
+       -moz-border-radius: 25px;
+            border-radius: 25px;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,.3);
+       -moz-box-shadow: 0 10px 20px rgba(0,0,0,.3);
+            box-shadow: 0 10px 20px rgba(0,0,0,.3);
 }
 
 .img {
-  width: 120px;
-  height: 120px;
-  padding-top:10px;
-  padding-bottom:10px;
+  width: 110px;
+  height: 110px;
+  padding-top:25px;
+  padding-bottom:25px;
   margin-right:auto; 
   margin-left:auto;
-  -moz-border-radius: 72px;
-  -webkit-border-radius: 72px;
-  border-radius: 72px;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
   }
 
-.control-group .help {
+.control-group .help  {
 	display: none;
 }
 
 .control-group.error .help {
 	display: block;
 }
+
+.control-group .control-label
+{
+  float: left;
+  width: 100px;
+  padding-top: 5px;
+  text-align: left;
+  color:black;
+
+}
+
+.checkbox
+{
+  color:black;
+}
+/*1962*/
