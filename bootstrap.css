@@ -1038,7 +1038,7 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-size: 21px;
   line-height: 40px;
   color: #060a0a;
@@ -1457,7 +1457,7 @@ input[type="checkbox"][readonly] {
 .control-group.warning .control-label,
 .control-group.warning .help-block,
 .control-group.warning .help-inline {
-  color: #c09853;
+  color: #060a0a;
 }
 
 .control-group.warning .checkbox,
@@ -1496,7 +1496,7 @@ input[type="checkbox"][readonly] {
 .control-group.error .control-label,
 .control-group.error .help-block,
 .control-group.error .help-inline {
-  color: #b94a48;
+  color: #060a0a;
 }
 
 .control-group.error .checkbox,
@@ -1535,7 +1535,7 @@ input[type="checkbox"][readonly] {
 .control-group.success .control-label,
 .control-group.success .help-block,
 .control-group.success .help-inline {
-  color: #468847;
+  color: #060a0a;
 }
 
 .control-group.success .checkbox,
@@ -1574,7 +1574,7 @@ input[type="checkbox"][readonly] {
 .control-group.info .control-label,
 .control-group.info .help-block,
 .control-group.info .help-inline {
-  color: #3a87ad;
+  color: #060a0a;
 }
 
 .control-group.info .checkbox,
@@ -1959,7 +1959,7 @@ legend + .control-group {
   clear: both;
 }
 
-.form-horizontal .control-label {
+.form-horizontal  {
   float: left;
   width: 160px;
   padding-top: 5px;
